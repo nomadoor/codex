@@ -18,12 +18,6 @@ resource "cloudflare_pages_project" "hello_world" {
   name              = var.project_name
   production_branch = var.production_branch
 
-  build_config {
-    build_command   = ""
-    destination_dir = "."
-    root_dir        = ""
-  }
-
   deployment_configs {
     production {}
     preview    {}
