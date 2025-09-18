@@ -1,0 +1,9 @@
+﻿# Copy this file to terraform.tfvars and fill in real values before running Terraform.
+api_token        = "cf-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+account_id       = "00000000000000000000000000000000"
+project_name     = "hello-world"
+production_branch = "main"
+pages_source_type = "github"
+repo_owner        = "nomadoor"
+repo_name         = "hello-world"
+# custom_domain  = "example.com"
